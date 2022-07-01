@@ -1,5 +1,6 @@
 ---
 tags:
+- image-to-text
 - image-captioning
 license: apache-2.0
 
