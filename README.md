@@ -3,7 +3,13 @@ tags:
 - image-to-text
 - image-captioning
 license: apache-2.0
-
+widget:
+- src: https://huggingface.co/datasets/mishig/sample_images/resolve/main/savanna.jpg
+  example_title: Savanna
+- src: https://huggingface.co/datasets/mishig/sample_images/resolve/main/football-match.jpg
+  example_title: Football Match
+- src: https://huggingface.co/datasets/mishig/sample_images/resolve/main/airport.jpg
+  example_title: Airport
 ---
 
 # nlpconnect/vit-gpt2-image-captioning
