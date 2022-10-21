@@ -54,7 +54,7 @@ def predict_step(image_paths):
   return preds
 
 
-predict_step(['doctor.e16ba4e4.jpg'] # ['a woman in a hospital bed with a woman in a hospital bed']
+predict_step(['doctor.e16ba4e4.jpg']) # ['a woman in a hospital bed with a woman in a hospital bed']
 
 ```
 
