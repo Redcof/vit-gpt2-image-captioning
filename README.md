@@ -14,7 +14,14 @@ widget:
 
 # nlpconnect/vit-gpt2-image-captioning
 
-This is an image captioning model training by @ydshieh in flax, this is pytorch version of https://huggingface.co/ydshieh/vit-gpt2-coco-en-ckpts model.
+This is an image captioning model trained by @ydshieh in [flax ](https://github.com/huggingface/transformers/tree/main/examples/flax/image-captioning) this is pytorch version of [this](https://huggingface.co/ydshieh/vit-gpt2-coco-en-ckpts).
+
+
+# The Illustrated Image Captioning using transformers
+
+![](https://ankur3107.github.io/assets/images/vision-encoder-decoder.png)
+
+## https://ankur3107.github.io/blogs/the-illustrated-image-captioning-using-transformers/
 
 
 # Sample running code
@@ -58,3 +65,21 @@ predict_step(['doctor.e16ba4e4.jpg']) # ['a woman in a hospital bed with a woman
 
 ```
 
+# Sample running code using transformers pipeline
+
+```python
+
+from transformers import pipeline
+
+image_to_text = pipeline("image-to-text", model="nlpconnect/vit-gpt2-image-captioning")
+
+image_to_text("https://ankur3107.github.io/assets/images/image-captioning-example.png")
+
+# [{'generated_text': 'a soccer game with a player jumping to catch the ball '}]
+
+
+```
+
+
+# Contact for any help
+* https://huggingface.co/ankur310794
