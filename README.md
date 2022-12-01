@@ -85,3 +85,6 @@ image_to_text("https://ankur3107.github.io/assets/images/image-captioning-exampl
 
 # Contact for any help
 * https://huggingface.co/ankur310794
+* https://twitter.com/ankur310794
+* http://github.com/ankur3107
+* https://www.linkedin.com/in/ankur310794
