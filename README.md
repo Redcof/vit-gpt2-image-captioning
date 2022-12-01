@@ -21,7 +21,7 @@ This is an image captioning model trained by @ydshieh in [flax ](https://github.
 
 ![](https://ankur3107.github.io/assets/images/vision-encoder-decoder.png)
 
-## [https://ankur3107.github.io/blogs/the-illustrated-image-captioning-using-transformers/](https://ankur3107.github.io/blogs/the-illustrated-image-captioning-using-transformers/)
+* https://ankur3107.github.io/blogs/the-illustrated-image-captioning-using-transformers/
 
 
 # Sample running code
